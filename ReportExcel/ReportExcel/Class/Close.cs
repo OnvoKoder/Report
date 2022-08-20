@@ -14,9 +14,7 @@ namespace ReportExcel.Class
             Process[] List;
             List = Process.GetProcessesByName("EXCEL");
             foreach (Process proc in List)
-            {
                 proc.Kill();
-            }
         }
     }
 }

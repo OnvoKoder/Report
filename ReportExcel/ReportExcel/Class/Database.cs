@@ -25,10 +25,9 @@ namespace ReportExcel.Class
                 if (reader.HasRows)
                     while (reader.Read())
                         reports.Add(new ReportData(reader[0].ToString(), Convert.ToDouble(reader[1].ToString()), Convert.ToDouble(reader[2].ToString()), Convert.ToDouble(reader[3].ToString())));
+                sql.Close();
             }
-            catch (Exception)
-            {
-            }
+            catch (Exception){}
         }
     }
 }
