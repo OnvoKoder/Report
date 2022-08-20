@@ -2,11 +2,11 @@
 {
     class ReportData
     {
-        private string _datetime { get; set; }
-        private double _max { get; set; }
-        private double _avg { get; set; }
-        private double _min { get; set; }
-        internal ReportData( string datetime,double max, double avg,double min)
+        public string _datetime { get; set; }
+        public double _max { get; set; }
+        public double _avg { get; set; }
+        public double _min { get; set; }
+        public ReportData( string datetime,double max, double avg,double min)
         {
             _datetime = datetime;
             _max = max;
