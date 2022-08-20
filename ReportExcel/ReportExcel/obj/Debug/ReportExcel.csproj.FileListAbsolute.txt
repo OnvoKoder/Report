@@ -1,0 +1,15 @@
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\bin\Debug\ReportExcel.exe.config
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\bin\Debug\ReportExcel.exe
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\bin\Debug\ReportExcel.pdb
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\bin\Debug\EPPlus.dll
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\bin\Debug\EPPlus.xml
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\obj\Debug\ReportExcel.csproj.AssemblyReference.cache
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\obj\Debug\ReportExcel.csproj.SuggestedBindingRedirects.cache
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\obj\Debug\ReportExcel.csproj.CoreCompileInputs.cache
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\obj\Debug\ReportExcel.csproj.CopyComplete
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\obj\Debug\ReportExcel.exe
+C:\Users\zenit\source\repos\Report\ReportExcel\ReportExcel\obj\Debug\ReportExcel.pdb

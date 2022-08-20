@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ReportExcel",
+    "\\ReportExcel\\ReportExcel"
   ],
-  "SelectedNode": "\\C:\\Users\\zenit\\Source\\Repos\\Report",
+  "SelectedNode": "\\ReportExcel\\ReportExcel.sln",
   "PreviewInSolutionExplorer": false
 }
