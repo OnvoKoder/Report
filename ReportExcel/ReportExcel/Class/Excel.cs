@@ -22,10 +22,8 @@ namespace ReportExcel.Class
             FileInfo excelFile = new FileInfo(path);
             using (ExcelPackage excel = new ExcelPackage(excelFile))
             {
-                if ((excel.Workbook.Worksheets[nameWorksheet])!=null)
-                    excel.Workbook.Worksheets.Delete(nameWorksheet);
-                else
-                    excel.Workbook.Worksheets.Add(nameWorksheet);
+                excel.Workbook.Worksheets.Delete(nameWorksheet);
+                excel.Workbook.Worksheets.Add(nameWorksheet);
                 var headerRow = new List<string[]>()
                     {
                         new string[] { "Дата", "Максимальное значение", "Среднее значение", "Минимальное значение "}
@@ -39,8 +37,8 @@ namespace ReportExcel.Class
                 chart.XAxis.Title.Font.Size = 10;
                 chart.YAxis.Title.Text = "H";
                 chart.YAxis.Title.Font.Size = 10;
-                chart.SetSize(1200, 700);
-                chart.SetPosition(60, 0, 10, 0);
+                chart.SetSize(4000, 1000);
+                chart.SetPosition(8, 0, 0, 0);
                 var consumptionCurrentYearSeries = chart.Series.Add("B2:B52", "A2:A52");
                 consumptionCurrentYearSeries.Header = "Max";
                 consumptionCurrentYearSeries = chart.Series.Add("C2:C52", "A2:A52");

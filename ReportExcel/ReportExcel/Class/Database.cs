@@ -28,7 +28,6 @@ namespace ReportExcel.Class
             }
             catch (Exception)
             {
-                reports.Clear();
             }
         }
     }
