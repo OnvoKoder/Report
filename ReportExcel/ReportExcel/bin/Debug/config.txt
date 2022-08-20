@@ -1,0 +1,5 @@
+﻿Data Source=LAPTOP-I559NUA0\SQLEXPRESS;
+Initial Catalog=Report;
+Integrated Security=True;
+#User ID=TestUser;
+#Password=1234;
