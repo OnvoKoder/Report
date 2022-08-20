@@ -61,7 +61,9 @@
   <ItemGroup>
     <Compile Include="Class\Close.cs" />
     <Compile Include="Class\ConfigurationManager.cs" />
+    <Compile Include="Class\Database.cs" />
     <Compile Include="Class\DbRepository.cs" />
+    <Compile Include="Class\ReportData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
