@@ -8,6 +8,7 @@ namespace ReportExcel
         static void Main(string[] args)
         {
             Close.CloseProcess();
+            Database.GetDataDatabase(out List<ReportData> report);
         }
     }
 }
