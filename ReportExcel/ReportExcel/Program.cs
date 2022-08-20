@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using ReportExcel.Class;
 namespace ReportExcel
 {
@@ -9,6 +8,7 @@ namespace ReportExcel
         {
             Close.CloseProcess();
             Database.GetDataDatabase(out List<ReportData> report);
+            Excel.CreateExcel(ref report, "Отчет");
         }
     }
 }
